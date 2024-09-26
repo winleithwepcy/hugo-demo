@@ -1,0 +1,55 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Win Blogs'
+theme = 'PaperMod'
+
+[params]
+ShowBreadCrumbs = true
+
+ShowReadingTime = true
+
+ShowShareButtons = true
+
+ShowPostNavLinks = true
+
+[params.homeInfoParams]
+Title = "Hello Stranger"
+Content = "Welcome to my Blog"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://facebook.com"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com"
+
+[params.cover]
+linkFullImages = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 20
+
+
+
